@@ -9,11 +9,13 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  -- colorschema
   {
     "catppuccin/nvim",
-    name = "catppuccin",
+    name = "macchiato", -- latte, frappe, macchiato, mocha
     config = function()
       require("catppuccin").setup {
+        flavour = "frappe",
         transparent_background = true,
       }
     end,

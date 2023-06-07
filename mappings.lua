@@ -25,7 +25,7 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
 
     -- delete selected word.
-    ["<leader>s"] = { [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], desc = "Delete selected words" },
+    ["<leader>s"] = { [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], desc = "Delete selected word" },
   },
   v = {
     ["J"] = { ":m '>+1<CR>gv=gv" },

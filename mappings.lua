@@ -28,9 +28,6 @@ return {
     ["J"] = { ":m '>+1<CR>gv=gv" },
     ["K"] = { ":m '<-2<CR>gv=gv" },
   },
-  i = {
-    ["<C-c>"] = { "<Esc>" }
-  },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,

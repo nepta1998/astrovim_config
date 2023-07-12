@@ -45,8 +45,8 @@ return {
     ["<leader>1v"] = { "<Plug>VimspectorStopOver", desc = "StopOver" },
   },
   v = {
-    ["J"] = { ":m '>+1<CR>gv=gv" },
-    ["K"] = { ":m '<-2<CR>gv=gv" },
+    ["J"] = { ":m '>+1<CR>gv-gv" },
+    ["K"] = { ":m '<-2<CR>gv-gv" },
   },
   t = {
     -- setting a mapping to false will disable it

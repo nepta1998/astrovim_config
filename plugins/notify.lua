@@ -6,8 +6,8 @@ return {
             require("plugins.configs.notify")(plugin, opts)
 
             -- require telescope and load extensions as necessary
-            require('notify').setup ({
-            -- other stuff
+            require('notify').setup({
+                -- other stuff
                 background_colour = "#000000"
             })
         end,

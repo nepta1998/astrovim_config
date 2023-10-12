@@ -52,6 +52,26 @@ return {
     servers = {
       -- "pyright"
     },
+    config = {
+      pylsp = {
+        plugins = {
+          pylint = { enabled = true },
+          black = { enabled = true },
+          isort = { enabled = true },
+          mypy = { enabled = true },
+          flake8 = { enabled = true },
+        },
+      },
+      python = {
+        analysis = {
+          autoImportCompletions = true,
+          diagnosticMode = "workspace",
+          useLibraryCodeForTypes = true
+        },
+      },
+    },
+
+
   },
 
   -- Configure require("lazy").setup() options
